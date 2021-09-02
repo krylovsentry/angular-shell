@@ -8,10 +8,10 @@ function requireHTTPS(req, res, next) {
 const express = require('express');
 const app = express();
 app.use(requireHTTPS);
-app.use(express.static('./dist/angular-mfe2'));
+app.use(express.static('./dist/angular-shell'));
 
 app.get('/*', function (req, res) {
-  res.sendFile('index.html', {root: 'dist/angular-mfe2/'}
+  res.sendFile('index.html', {root: 'dist/angular-shell/'}
   );
 });
 

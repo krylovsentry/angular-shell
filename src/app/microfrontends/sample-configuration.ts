@@ -5,7 +5,7 @@
         {
           type: 'angular',
           subType: 'module',
-          remoteEntry: 'http://localhost:4201/remoteEntry.js',
+          remoteEntry: 'https://angular-mfe-1.herokuapp.com/remoteEntry.js',
           remoteName: 'angular_mfe_1',
           exposedModule: 'MfeModule',
           displayName: 'Notes',
@@ -15,7 +15,7 @@
         },
         {
           type: 'react',
-          remoteEntry: 'http://localhost:8080/remoteEntry.js',
+          remoteEntry: 'https://react-mfe-1.herokuapp.com/remoteEntry.js',
           remoteName: 'react_app',
           exposedModule: 'ReactApp',
           displayName: 'Notes admin panel',
@@ -44,7 +44,7 @@
         notesCounter: {
           type: 'angular',
           subType: 'component',
-          remoteEntry: 'http://localhost:4202/remoteEntry.js',
+          remoteEntry: 'https://angular-mfe-2.herokuapp.com/remoteEntry.js',
           remoteName: 'angular_mfe_2',
           exposedModule: 'NotesCounter',
           moduleName: 'NotesCounterComponent'
