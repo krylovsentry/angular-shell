@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start-angular-host": "ng serve -o",
-    "build": "ng build",
+    "start": "node server.js",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
