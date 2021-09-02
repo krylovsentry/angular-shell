@@ -1,0 +1,10 @@
+<div class="host-welcome">
+  <div class="host-welcome__application-selector">
+    <div *ngFor="let route of routes$ | async"
+         [routerLink]="route.routePath"
+         class="host-welcome__application-selector-item"
+    >
+      {{ route.displayName }}
+    </div>
+  </div>
+</div>
